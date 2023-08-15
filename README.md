@@ -1,11 +1,14 @@
 # Unsupervised Machine Learning Project to Identify Customers Segments
 
-This goal for this project is to identify segments of the population that form the core customer base for a mail-order sales company using unsupervised machine learning. These segments can then be used to direct marketing campaigns towards audiences that will have the highest expected rate of returns.
+Goal : Apply unsupervised Learning techniques to identify segments of the population that form the core customer base for a mail-order sales company in Germany. 
+
+Why ?  These segments can then be used to direct marketing campaigns towards audiences that will have the highest expected rate of return  
+
 
 This project was done as part of the Udacity Nanodegree : Introduction to Machine Learning with Tensorflow Nanodegree during the final model on Unsupervised Learning. 
 
 Those are the steps that were done to realise this project: 
-### 1. Load the Data 
+### 1. Load the Dataset (general population)
 ### 2. Preprocessing 
 
 
@@ -25,6 +28,9 @@ Those are the steps that were done to realise this project:
      3.3 Interpret Principal Components
 
 ### 4. Clustering
+
+
+### 5. Apply clustering to the customer dataset 
 
 
 
