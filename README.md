@@ -30,12 +30,24 @@ Those are the steps that were done to realise this project:
 ### 4. Clustering
 
 
-### 5. Apply clustering to the customer dataset 
-
-
-
 
     4.1 Apply clustering to General Population
     4.2 Apply All Steps to the Customer Data 
     4.3 Compare Customer Data to Demographics Data  
+
+
+### 5. Apply clustering to the customer dataset 
+
+
+## Key Findings and Insights 
+
+      -> Dropped 6 columns with more than 20% missing data
+      -> Re-encoded binary features and dropped the 14 multilevel features
+      -> Transformed missing values in rows with Imputer function => average missing values on all rows = 1,37 %
+      -> Applied feature scaling with StandardScaler() on general population dataset
+      -> Performed dimensionality reduction (PCA) and kept 30 principal components
+      -> Applied Kmeans clustering to general population dataset and kept 14 clusters 
+
+
+
 
